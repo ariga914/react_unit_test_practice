@@ -1,0 +1,46 @@
+.registerForm {
+    &__wrapper {
+        border: solid 3px $app_indigo_primary;
+        background-color: $app_indigo_light;
+        padding: 15px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    &-control {
+        margin-bottom: 10px;
+    }
+    &-input {
+        margin-left: 5px;
+    }
+    &__button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 100px;
+        height: 40px;
+        color: $app_white;
+        background-color: $app_enji;
+        border: 2px solid $app_white;
+        border-radius: 20px;
+        &-disabled {
+            cursor: not-allowed;
+        }
+    }
+    &__alert {
+        color: $app_enji;
+        background-color: $app_white;
+        line-height: 25px;
+        text-align: center;
+    }
+    &__feedback {
+        text-align: center;
+        line-height: 25px;
+        &-success {
+            color: $app_white;
+            background-color: $app_green;
+        }
+    }
+}

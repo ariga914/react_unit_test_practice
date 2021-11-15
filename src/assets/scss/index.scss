@@ -1,0 +1,11 @@
+@import "./variables/colors";
+@import "./component/form";
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+    color: $app_indigo_primary;
+    background-color: $app_white;
+}
